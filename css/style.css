@@ -118,3 +118,98 @@ button a{
 .down-banner span{
   color:grey;
 }
+
+/* blocchi illustrativi */
+.big-block{
+  margin: 0 9%;
+}
+.block{
+  float:left;
+  width: calc(100% /3);
+  /* togliere il commento a yellow per vedere le dimensioni
+  avrei voluto fare i 3 blocchi uguali ma se poi gli
+   imposto una dimensione e cambia il contenuto poi si sballa tutto
+   allora visto che sotto c'è comunque un hr li lascio direttamente cosi  */
+  /* background:yellow; */
+}
+
+.block img{
+  width: 100%;
+  padding-top: 30px;
+  height: 150px;
+}
+
+.block h3{
+  color:#7CBB02;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.block hr{
+  width: 25%;
+  margin: auto;
+}
+
+.block p{
+  color:grey;
+  padding: 20px;
+  text-align: center;
+}
+
+.big-block::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* fine trittico blocchi */
+/* sezione finale */
+.big-line{
+  margin: 0 1%;
+}
+
+
+.block-final img{
+  margin: 5% 0;
+  width: 30%;
+  float: left;
+  margin-left:15%;
+}
+
+.block-final-text{
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 5%;
+  margin-left: 8%;
+  font-size: 16px;
+}
+
+.block-final-text p{
+  padding: 10px 0;
+  color:grey;
+}
+
+.block-final-text a{
+  font-size: 10px;
+  color:#5586BC;
+}
+
+.block-final::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+/* footer */
+footer{
+  line-height: 80px;      /*   da commentare */
+  background: #D3D3D3;
+  /* position: fixed; */
+  /* bottom:0; */
+  width: 100%;
+}
+
+footer h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
