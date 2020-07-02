@@ -20,7 +20,7 @@ header{
 }
 
 .header-top{
-  height: 60px;
+  /* height: 60px;  */
   padding-top: 10px;
   line-height: 60px;
 }
@@ -80,4 +80,8 @@ header{
 #signup{
   padding: 0 10px;
   background-color: #7CBB02;
+}
+
+/* inizio banner */
+.banner{
 }
