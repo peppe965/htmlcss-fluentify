@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- link per i font google -->
     <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"">
+    <!-- link per font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <meta charset="utf-8">
     <title>Fluentify</title>
   </head>
@@ -80,19 +82,35 @@
     <footer>
       <h3>Struttura un piano</h3>
       <div class="option-menu">
-         <label for="cars">Sono</label>
-         <select id="choose" name="Seleziona">
-           <option value="select" disabled selected hidden>Seleziona</option>
-           <option value="Principiante">Principiante</option>
-           <option value="medio_livello">Medio livello</option>
-           <option value="expert">Esperto</option>
-         </select>
-         <div class="button-green">
-           <button class="view">Visualizza il tuo piano</button><br>
-           <button class="help">help</button>
-         </div>
-      </div>
+        <!-- commentare da qui per vedere seconda opzione -->
 
+           <!-- <label for="cars">Sono</label>
+           <select id="choose" name="Seleziona">
+             <option value="select" disabled selected hidden>Seleziona</option>
+             <option value="Principiante">Principiante</option>
+             <option value="medio_livello">Medio livello</option>
+             <option value="expert">Esperto</option>
+           </select> -->
+
+           <!-- fino a qui -->
+
+          <!-- commentare da qui per vedere prima opzione -->
+           Sono
+          <div id="option-menu">
+            Seleziona<i class="fas fa-caret-down"></i>
+            <ul id="menu">
+              <li class="option">Ignorante</li>
+              <li class="option">A buon punto</li>
+              <li class="option">Esperto</li>
+            </ul>
+          </div>
+           <!-- fino a qui -->
+
+        <div class="button-green">
+          <button class="view">Visualizza il tuo piano</button><br>
+          <button class="help">help</button>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

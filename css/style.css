@@ -212,21 +212,58 @@ footer h3{
   margin-left: 12%;
   float: left;
 }
-
+/* opzione realizzata con select option */
 .option-menu{
   float: right;
   padding-right: 10%;
   font-size: 16px;
   color: grey;
+  position: relative;
 }
 
+/* opzione realizzata con display none */
+
+#option-menu{
+  margin-left: 10px;
+  border-bottom:1px solid grey;
+  display: inline-block;
+  }
+
+#menu{
+  display: none;
+  position:absolute;
+  top:25px;
+  left:50px;
+  list-style: none;
+
+}
+
+.option{
+  border: 2px solid grey;
+  border-bottom: none;
+  padding: 3px 8px;
+}
+
+
+.fa-caret-down{
+  margin-left: 15px;
+}
+
+#option-menu:hover #menu{
+  display: block;
+}
+
+#menu li:last-child{
+  border-bottom:2px solid gray;
+}
+
+/* pulsanti verdi pie di pagina non centrati */
 .button-green{
   float: right;
   text-align: center;
+  margin-left: 20px;
 }
 
-.view{
-}
 .help{
-  margin-top: 20px;
+  margin: 20px 0;
 }
