@@ -70,7 +70,11 @@ button{
   height: 40px;
   line-height: 40px;
   border: 1px solid white;
-  border-radius: 8px;
+  border-radius: 5px;
+  background-color: #7CBB02;
+  border:1px solid #7CBB02;
+  margin-left: 10px;
+  padding: 0 10px;
 }
 
 button a{
@@ -87,13 +91,7 @@ button a{
   padding: 0 40px;
   background-color: inherit;
   margin-left: 10px;
-
-}
-.signup{
-  margin-left: 10px;
-  padding: 0 10px;
-  background-color: #7CBB02;
-  border:1px solid #7CBB02;
+  border:1px solid #fff;
 }
 
 /* inizio banner */
@@ -202,14 +200,33 @@ button a{
 
 /* footer */
 footer{
-  line-height: 80px;      /*   da commentare */
   background: #D3D3D3;
-  /* position: fixed; */
-  /* bottom:0; */
   width: 100%;
+  float: left;
+  padding-top: 5%;
 }
 
 footer h3{
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  margin-left: 12%;
+  float: left;
+}
+
+.option-menu{
+  float: right;
+  padding-right: 10%;
+  font-size: 16px;
+  color: grey;
+}
+
+.button-green{
+  float: right;
+  text-align: center;
+}
+
+.view{
+}
+.help{
+  margin-top: 20px;
 }
