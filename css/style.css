@@ -34,11 +34,12 @@ header{
 .header-top-logo{
   float: left;
   width: 12%;
+  margin-right: 1%;
 }
 /* <!-- sezione nav con info --> */
 .header-top-nav{
   float: left;
-  width:50%;
+  width:49%;
 }
 /* in comune tra nav-nar e nav-login */
 .navbar{
@@ -96,12 +97,24 @@ button a{
 }
 
 /* inizio banner */
-.banner{
-
-}
-
 .banner h1{
   color: #fff;
   font-family: 'Roboto', sans-serif;
   padding: 20px;
   line-height: 50px;
+}
+
+/* blocco grigio sotto il banner */
+.down-banner{
+  background: #D3D3D3;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 30px;
+  height: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.down-banner span{
+  color:grey;
+}
